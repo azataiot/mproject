@@ -1,0 +1,1 @@
+function love()	clc;	clear all;	close all;	n = linspace(-pi,pi, 350);	x = n .* sin( pi * sin(n)./n);	y = -abs(n) .* cos( pi * sin(n)./n);	plot(x,y,'.r');	fill(x, y, 'r');	set(gcf, 'Position', get(0,'Screensize'));	title('YYaakkoovv', 'FontSize', 26);end

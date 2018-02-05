@@ -1,0 +1,1 @@
+v=-1.5:.01:1.5;[x,y,z]=ndgrid(v,v,v);w=(2*x.^2+y.^2+z.^2-1).^3-(1/10)*x.^2.*z.^3-y.^2.*z.^3;p=patch(isosurface(w,0));set(p,'facecolor','r','edgecolor','none')camlight;lighting phongview(-13,6)
