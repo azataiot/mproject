@@ -3,15 +3,21 @@
 clc;
 clear;
 
+m1=input('please input a number:m1:')
 % given parameters:
-m1=-3;
-sig1=1;
-m2=-1;
-sig2=0.5;
-p1=0.9;
-p2=0.1;
+%m1=-3;
+sig1=input('please input a number:sig1:')
+%sig1=1;
+%m2=-1;
+m2=input('please input a number:m2:')
+%sig2=0.5;
+sig2=input('please input a number:sig2:')
+%p1=0.9;
+p1=input('please input a number:p1:')
+%p2=0.1
+p2=input('please input a number:p2:')
 N=200;
-
+-2
 % calculate the coordinates of x :
 
 [xmin,xmax]=threesigma(m1,sig1,m2,sig2);
